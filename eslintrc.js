@@ -1,6 +1,7 @@
 'use strict';
 
-var MAX_LINE_LEN = 140;
+const MAX_LINE_LEN = 140;
+const INDENT_DEPTH = 4;
 
 exports = module.exports = {
     extends: 'eslint:recommended',
@@ -82,7 +83,7 @@ exports = module.exports = {
         // Stylistic Issues
 
         'array-bracket-spacing': ['error'],
-        'brace-style':           ['error'],
+        'brace-style':           ['error', 'stroustrup'],
         'camelcase':             ['error'],
         'comma-dangle':          ['error', 'always-multiline'],
         'comma-spacing':         ['error'],
@@ -90,7 +91,7 @@ exports = module.exports = {
         'consistent-this':       ['error'],
         'eol-last':              ['error'],
         'func-call-spacing':     ['error'],
-        'indent':                ['error', 4],
+        'indent':                ['error', INDENT_DEPTH],
         'jsx-quotes':            ['error'],
         'key-spacing':           ['error', { mode: 'minimum' }],
         'line-comment-position': ['error'],
