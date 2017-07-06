@@ -71,7 +71,7 @@ exports = module.exports = {
         'no-undef':             ['error'],
         'no-undef-init':        ['error'],
         'no-unused-vars':       ['error'],
-        'no-use-before-define': ['error'],
+        'no-use-before-define': ['error', { functions: false, classes: true, variables: true }],
 
         // Node.js and CommonJS
 
