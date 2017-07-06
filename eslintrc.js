@@ -8,6 +8,10 @@ exports = module.exports = {
     rules: {
         // from http://eslint.org/docs/rules/
 
+        // Possible Errors
+
+        'no-console': ['warn'],
+
         // Best Practices
         'complexity':           ['error'],
         'curly':                ['error', 'all'],
