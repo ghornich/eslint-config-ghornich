@@ -5,6 +5,10 @@ const INDENT_DEPTH = 4;
 
 exports = module.exports = {
     extends: 'eslint:recommended',
+    env: {
+        node: true,
+        es6: true,
+    },
     rules: {
         // from http://eslint.org/docs/rules/
 
