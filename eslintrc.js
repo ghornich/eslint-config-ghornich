@@ -101,6 +101,7 @@ exports = module.exports = {
         'indent':                ['error', INDENT_DEPTH],
         'jsx-quotes':            ['error'],
         'key-spacing':           ['error', { mode: 'minimum' }],
+        'keyword-spacing':       ['error'],
         'line-comment-position': ['error'],
         'linebreak-style':       ['error'],
         'max-depth':             ['error'],
@@ -138,6 +139,7 @@ exports = module.exports = {
 
         // ECMAScript 6
 
+        'arrow-spacing':      ['error'],
         'constructor-super':  ['error'],
         'no-var':             ['error'],
         'prefer-const':       ['error'],
