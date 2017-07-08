@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "eslintrc.js",
+  "dependencies": {
+    "eslint-config-ghornich-es5": "github:ghornich/eslint-config-ghornich-es5"
+  },
   "author": "ghornich",
   "license": "MIT"
 }
