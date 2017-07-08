@@ -98,7 +98,7 @@ exports = module.exports = {
         'consistent-this':       ['error'],
         'eol-last':              ['error'],
         'func-call-spacing':     ['error'],
-        'indent':                ['error', INDENT_DEPTH],
+        'indent':                ['error', INDENT_DEPTH, { 'SwitchCase': 1 }],
         'jsx-quotes':            ['error'],
         'key-spacing':           ['error', { mode: 'minimum' }],
         'keyword-spacing':       ['error'],
