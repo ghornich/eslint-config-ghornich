@@ -85,7 +85,7 @@ exports = module.exports = {
 
         'no-buffer-constructor': ['error'],
         'no-path-concat':        ['error'],
-        'no-sync':               ['error'],
+        'no-sync':               ['warn'],
 
         // Stylistic Issues
 
@@ -107,7 +107,7 @@ exports = module.exports = {
         'max-depth':             ['error'],
         'max-len':               ['error', MAX_LINE_LEN],
         'max-params':            ['error'],
-        'max-statements':        ['error'],
+        'max-statements':        ['warn'],
         'multiline-ternary':     ['error'],
         'new-cap':               ['error'],
         'new-parens':            ['error'],
