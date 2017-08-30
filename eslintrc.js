@@ -17,6 +17,7 @@ exports = module.exports = {
         'prefer-const':       ['error'],
         'prefer-rest-params': ['error'],
         'prefer-spread':      ['error'],
-        'prefer-template':    ['error'],
+        // 'prefer-template':    ['error'],
+        'template-curly-spacing': ['error'],
     },
 };
