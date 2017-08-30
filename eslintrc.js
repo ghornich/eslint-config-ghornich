@@ -1,8 +1,5 @@
 'use strict';
 
-const MAX_LINE_LEN = 140;
-const INDENT_DEPTH = 4;
-
 exports = module.exports = {
     extends: 'eslint-config-ghornich-es5',
     env: {
